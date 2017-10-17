@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="10dp"
+    tools:context="com.moviles.dispositivos.guia5_moviles.EjercicioActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cinta"
+        android:layout_marginTop="16dp"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_marginStart="10dp"
+        android:layout_alignParentTop="true" />
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginTop="57dp"
+        app:srcCompat="@drawable/corona"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        app:srcCompat="@drawable/corona"
+        android:layout_alignTop="@+id/imageView5"
+        android:layout_alignEnd="@+id/CENT" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/corona"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/IZQ"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:background="@drawable/fondo_boton"
+        android:text="IZQ"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/CENT"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:background="@drawable/fondo_boton"
+        android:text="CENTRO"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/DER"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:background="@drawable/fondo_boton"
+        android:text="DER"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
